@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10CEA2A2C026129007141EE /* KinoDrawListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA292C026129007141EE /* KinoDrawListView.swift */; };
+		E10CEA2E2C0264D0007141EE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA2D2C0264D0007141EE /* Constants.swift */; };
+		E10CEA302C026AA8007141EE /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA2F2C026AA8007141EE /* NetworkClient.swift */; };
+		E10CEA322C03361B007141EE /* KinoDrawTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA312C03361B007141EE /* KinoDrawTabsView.swift */; };
+		E10CEA362C0343E4007141EE /* KinoDrawResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA352C0343E4007141EE /* KinoDrawResultsView.swift */; };
+		E10CEA382C03440C007141EE /* KinoDrawLiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA372C03440C007141EE /* KinoDrawLiveView.swift */; };
+		E10CEA3A2C03441F007141EE /* KinoDrawSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA392C03441F007141EE /* KinoDrawSelectView.swift */; };
+		E10CEA3C2C035154007141EE /* KinoDrawResultsView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA3B2C035154007141EE /* KinoDrawResultsView+ViewModel.swift */; };
+		E10CEA3F2C0361F5007141EE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA3E2C0361F5007141EE /* Helpers.swift */; };
+		E10CEA422C03B404007141EE /* KinoDrawResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA412C03B404007141EE /* KinoDrawResultModel.swift */; };
+		E10CEA442C03B436007141EE /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA432C03B436007141EE /* NumberView.swift */; };
+		E10CEA492C03B7F2007141EE /* KinoDrawListView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA482C03B7F2007141EE /* KinoDrawListView+ViewModel.swift */; };
+		E10CEA4B2C03BE50007141EE /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA4A2C03BE50007141EE /* WebView.swift */; };
+		E10CEA4D2C03CAC2007141EE /* KinoDrawSelectView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA4C2C03CAC2007141EE /* KinoDrawSelectView+ViewModel.swift */; };
+		E10CEA4F2C03D0FA007141EE /* KinoDrawListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA4E2C03D0FA007141EE /* KinoDrawListModel.swift */; };
+		E10CEA512C03E3C6007141EE /* SelectableNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA502C03E3C6007141EE /* SelectableNumberView.swift */; };
+		E133129F2BFC952A00F13746 /* GreekKinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133129E2BFC952A00F13746 /* GreekKinoApp.swift */; };
+		E13312A32BFC952C00F13746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13312A22BFC952C00F13746 /* Assets.xcassets */; };
+		E13312A62BFC952C00F13746 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13312A52BFC952C00F13746 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E10CEA292C026129007141EE /* KinoDrawListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoDrawListView.swift; sourceTree = "<group>"; };
+		E10CEA2D2C0264D0007141EE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E10CEA2F2C026AA8007141EE /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		E10CEA312C03361B007141EE /* KinoDrawTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoDrawTabsView.swift; sourceTree = "<group>"; };
+		E10CEA352C0343E4007141EE /* KinoDrawResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoDrawResultsView.swift; sourceTree = "<group>"; };
+		E10CEA372C03440C007141EE /* KinoDrawLiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoDrawLiveView.swift; sourceTree = "<group>"; };
+		E10CEA392C03441F007141EE /* KinoDrawSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoDrawSelectView.swift; sourceTree = "<group>"; };
+		E10CEA3B2C035154007141EE /* KinoDrawResultsView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KinoDrawResultsView+ViewModel.swift"; sourceTree = "<group>"; };
+		E10CEA3E2C0361F5007141EE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		E10CEA412C03B404007141EE /* KinoDrawResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoDrawResultModel.swift; sourceTree = "<group>"; };
+		E10CEA432C03B436007141EE /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		E10CEA482C03B7F2007141EE /* KinoDrawListView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KinoDrawListView+ViewModel.swift"; sourceTree = "<group>"; };
+		E10CEA4A2C03BE50007141EE /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E10CEA4C2C03CAC2007141EE /* KinoDrawSelectView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KinoDrawSelectView+ViewModel.swift"; sourceTree = "<group>"; };
+		E10CEA4E2C03D0FA007141EE /* KinoDrawListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoDrawListModel.swift; sourceTree = "<group>"; };
+		E10CEA502C03E3C6007141EE /* SelectableNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableNumberView.swift; sourceTree = "<group>"; };
+		E133129B2BFC952A00F13746 /* GreekKino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreekKino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E133129E2BFC952A00F13746 /* GreekKinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekKinoApp.swift; sourceTree = "<group>"; };
+		E13312A22BFC952C00F13746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E13312A52BFC952C00F13746 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E13312982BFC952A00F13746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10CEA332C033629007141EE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA472C03B48F007141EE /* GamesList */,
+				E10CEA462C03B482007141EE /* Select */,
+				E10CEA452C03B467007141EE /* Live */,
+				E10CEA3D2C03515E007141EE /* Results */,
+				E10CEA312C03361B007141EE /* KinoDrawTabsView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E10CEA342C033632007141EE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA2D2C0264D0007141EE /* Constants.swift */,
+				E10CEA2F2C026AA8007141EE /* NetworkClient.swift */,
+				E10CEA3E2C0361F5007141EE /* Helpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E10CEA3D2C03515E007141EE /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA432C03B436007141EE /* NumberView.swift */,
+				E10CEA352C0343E4007141EE /* KinoDrawResultsView.swift */,
+				E10CEA3B2C035154007141EE /* KinoDrawResultsView+ViewModel.swift */,
+				E10CEA412C03B404007141EE /* KinoDrawResultModel.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		E10CEA402C036F65007141EE /* Resuable */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA4A2C03BE50007141EE /* WebView.swift */,
+			);
+			path = Resuable;
+			sourceTree = "<group>";
+		};
+		E10CEA452C03B467007141EE /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA372C03440C007141EE /* KinoDrawLiveView.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		E10CEA462C03B482007141EE /* Select */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA392C03441F007141EE /* KinoDrawSelectView.swift */,
+				E10CEA4C2C03CAC2007141EE /* KinoDrawSelectView+ViewModel.swift */,
+				E10CEA502C03E3C6007141EE /* SelectableNumberView.swift */,
+			);
+			path = Select;
+			sourceTree = "<group>";
+		};
+		E10CEA472C03B48F007141EE /* GamesList */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA292C026129007141EE /* KinoDrawListView.swift */,
+				E10CEA482C03B7F2007141EE /* KinoDrawListView+ViewModel.swift */,
+				E10CEA4E2C03D0FA007141EE /* KinoDrawListModel.swift */,
+			);
+			path = GamesList;
+			sourceTree = "<group>";
+		};
+		E13312922BFC952A00F13746 = {
+			isa = PBXGroup;
+			children = (
+				E133129D2BFC952A00F13746 /* GreekKino */,
+				E133129C2BFC952A00F13746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E133129C2BFC952A00F13746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E133129B2BFC952A00F13746 /* GreekKino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E133129D2BFC952A00F13746 /* GreekKino */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA332C033629007141EE /* Features */,
+				E10CEA402C036F65007141EE /* Resuable */,
+				E10CEA342C033632007141EE /* Utilities */,
+				E133129E2BFC952A00F13746 /* GreekKinoApp.swift */,
+				E13312A22BFC952C00F13746 /* Assets.xcassets */,
+				E13312A42BFC952C00F13746 /* Preview Content */,
+			);
+			path = GreekKino;
+			sourceTree = "<group>";
+		};
+		E13312A42BFC952C00F13746 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E13312A52BFC952C00F13746 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E133129A2BFC952A00F13746 /* GreekKino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13312A92BFC952C00F13746 /* Build configuration list for PBXNativeTarget "GreekKino" */;
+			buildPhases = (
+				E13312972BFC952A00F13746 /* Sources */,
+				E13312982BFC952A00F13746 /* Frameworks */,
+				E13312992BFC952A00F13746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreekKino;
+			productName = GreekKino;
+			productReference = E133129B2BFC952A00F13746 /* GreekKino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E13312932BFC952A00F13746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E133129A2BFC952A00F13746 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = E13312962BFC952A00F13746 /* Build configuration list for PBXProject "GreekKino" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E13312922BFC952A00F13746;
+			productRefGroup = E133129C2BFC952A00F13746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E133129A2BFC952A00F13746 /* GreekKino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E13312992BFC952A00F13746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13312A62BFC952C00F13746 /* Preview Assets.xcassets in Resources */,
+				E13312A32BFC952C00F13746 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E13312972BFC952A00F13746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10CEA442C03B436007141EE /* NumberView.swift in Sources */,
+				E10CEA3F2C0361F5007141EE /* Helpers.swift in Sources */,
+				E10CEA362C0343E4007141EE /* KinoDrawResultsView.swift in Sources */,
+				E10CEA2E2C0264D0007141EE /* Constants.swift in Sources */,
+				E10CEA2A2C026129007141EE /* KinoDrawListView.swift in Sources */,
+				E10CEA4D2C03CAC2007141EE /* KinoDrawSelectView+ViewModel.swift in Sources */,
+				E10CEA4B2C03BE50007141EE /* WebView.swift in Sources */,
+				E10CEA3A2C03441F007141EE /* KinoDrawSelectView.swift in Sources */,
+				E10CEA3C2C035154007141EE /* KinoDrawResultsView+ViewModel.swift in Sources */,
+				E10CEA492C03B7F2007141EE /* KinoDrawListView+ViewModel.swift in Sources */,
+				E10CEA512C03E3C6007141EE /* SelectableNumberView.swift in Sources */,
+				E10CEA4F2C03D0FA007141EE /* KinoDrawListModel.swift in Sources */,
+				E10CEA322C03361B007141EE /* KinoDrawTabsView.swift in Sources */,
+				E133129F2BFC952A00F13746 /* GreekKinoApp.swift in Sources */,
+				E10CEA382C03440C007141EE /* KinoDrawLiveView.swift in Sources */,
+				E10CEA302C026AA8007141EE /* NetworkClient.swift in Sources */,
+				E10CEA422C03B404007141EE /* KinoDrawResultModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E13312A72BFC952C00F13746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E13312A82BFC952C00F13746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E13312AA2BFC952C00F13746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreekKino/Preview Content\"";
+				DEVELOPMENT_TEAM = WL3LBN86YB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neosim.GreekKino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E13312AB2BFC952C00F13746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreekKino/Preview Content\"";
+				DEVELOPMENT_TEAM = WL3LBN86YB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neosim.GreekKino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E13312962BFC952A00F13746 /* Build configuration list for PBXProject "GreekKino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13312A72BFC952C00F13746 /* Debug */,
+				E13312A82BFC952C00F13746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13312A92BFC952C00F13746 /* Build configuration list for PBXNativeTarget "GreekKino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13312AA2BFC952C00F13746 /* Debug */,
+				E13312AB2BFC952C00F13746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E13312932BFC952A00F13746 /* Project object */;
+}
